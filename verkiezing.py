@@ -25,3 +25,4 @@ class Kiezer:
         stem = Stem(kandidaat)
         kandidaat.geef_stem(stem)
         print(f"{self.naam} heeft gestemd op {kandidaat}")
+        print("hij heeft gestemd")
