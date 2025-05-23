@@ -25,4 +25,19 @@ class Kiezer:
         stem = Stem(kandidaat)
         kandidaat.geef_stem(stem)
         print(f"{self.naam} heeft gestemd op {kandidaat}")
+
+lijst_van_kandidaten = [
+    RectorKandidaat("Eren", "Natuurkunde"),
+    RectorKandidaat("Fran", "Wiskunde")
+    RectorKandidaat("Barbara", "Scheikunde"),
+    RectorKandidaat("Tim", "Biologie"),
+    RectorKandidaat("Lander", "Informatica")
+]
+lijst_kiezers = [
+    RectorKiezer("Mama", "Wiskunde"),
+    RectorKiezer("Zus", "Natuurkunde")]
+
+for kiezer in lijst_kiezers:
+    kandidaatnummer = random.randint(0, len(lijst_van_kandidaten)-1)
+    kiezer.stem(lijst_van_kandidaten[kandidaatnummer])
         
