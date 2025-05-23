@@ -31,15 +31,15 @@ class DecaanKiezer(Kiezer):
 
 
 lijst_van_kandidaten = [
-    DecaanKandidaat("Jan", "Wiskunde"),
-    DecaanKandidaat("Piet", "Natuurkunde"),
-    DecaanKandidaat("Klaas", "Scheikunde"),
-    DecaanKandidaat("Marie", "Biologie"),
-    DecaanKandidaat("Anna", "Informatica")
+    DecaanKandidaat("Casper", "Natuurkunde"),
+    DecaanKandidaat("Xander", "Wiskunde")
+    DecaanKandidaat("Jesse", "Scheikunde"),
+    DecaanKandidaat("Siebe", "Biologie"),
+    DecaanKandidaat("Achille", "Informatica")
 ]
 lijst_kiezers = [
-    DecaanKiezer("Henk", "Wiskunde"),
-    DecaanKiezer("Els", "Natuurkunde")]
+    DecaanKiezer("Papa", "Wiskunde"),
+    DecaanKiezer("Broer", "Natuurkunde")]
 
 for kiezer in lijst_kiezers:
     for kandidaat in lijst_van_kandidaten:
